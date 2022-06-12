@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+        .header{
+            background-color: #deb4d8;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .header-picture{
+            width: 30vw;
+            height: auto;
+        }
+        .navbar{
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+        }
+        .nav-link{
+            margin-left: 5vw;
+            margin-right: 5vw;
+        }
+        a{
+            color: black;
+            font-family: 'Dosis', sans-serif;
+        }
+        a:link {
+            color: black;
+        }
+
+        a:visited {
+            color: black;
+        }
+
+        a:hover {
+            color: black;
+            box-shadow: 0 0 11px rgba(33,33,33,.2); 
+        }
+
+        a:active {
+            color: black;
+        }
+
+        a:hover:not(.active) {
+            color: black;
+        }
+
+        .active {
+            color: black;
+        }
+
+        .main{
+            display: flex;
+            justify-content: center;
+            height: 60vh;
+        }
+
+        * {
+            font-family: 'Gaegu', cursive;
+        }
+
+        .title {
+            height: 220px;
+            width: 100%;
+            max-width: 600px;
+
+            margin: auto;
+
+            color: white;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            background-color: #4c8ecc;
+            background-image: url("https://i.pinimg.com/originals/79/b0/63/79b063c5674cade7915c2c723bce607c.gif");
+            background-size: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            border-radius: 20px;
+
+        }
+
+        .title > button {
+            margin-top: 150px;
+        }
+
+        .mypost {
+
+            box-shadow: 0px 0px 3px 0px black;
+            padding: 20px 20px 50px 20px;
+            margin-bottom: 20px;
+
+            color: gray;
+        }
+
+        .btn_group {
+            border-radius: 10px;
+            margin-top: 100px;
+        }
+
+        .btn_group > button {
+            margin: auto 10px;
+        }
+
+        .mycards > .card {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .form-floating {
+            margin-bottom: 10px;
+        }
+
+        .desc {
+            width: 95%;
+            max-width: 500px;
+            margin: 20px auto 20px auto;
+        }
+
+        .btn_delete {
+            float: right;
+            border-radius: 5px;
+            background-color: transparent;
+            font-weight: 100;
+            border: transparent;
+        }

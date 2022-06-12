@@ -1,3 +1,7 @@
+
+$(window).load(function () {
+    $('body').sakura();
+});
 (function ($) {
     // requestAnimationFrame Polyfill
     (function () {
